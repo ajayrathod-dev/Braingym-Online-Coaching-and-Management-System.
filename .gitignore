@@ -1,0 +1,53 @@
+# Operating System Files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor & IDE Directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+*~
+
+# Server Logs & Errors
+*.log
+error_log
+*/error_log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment and Local Config Overrides
+.env
+.env.local
+.env.*.local
+connection.local.php
+config.local.php
+
+# User Uploaded Content & Large Media Files
+uploads/gallery/*.mp4
+uploads/gallery/*.mov
+uploads/gallery/*.webm
+uploads/gallery/*.avi
+uploads/gallery/*.mkv
+uploads/notices/*
+!uploads/notices/.gitkeep
+!uploads/gallery/.gitkeep
+
+# Temporary & Cache Files
+tmp/
+temp/
+*.tmp
